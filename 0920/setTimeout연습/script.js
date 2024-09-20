@@ -20,4 +20,6 @@ document.querySelector('.btn').addEventListener('click', () => {
   setTimeout(() => {
     document.querySelectorAll('.alert')[1].style.display = 'none';
   }, 5000);
-})
+});
+
+console.log('그냥 추가함');
